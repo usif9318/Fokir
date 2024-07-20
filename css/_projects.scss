@@ -1,0 +1,25 @@
+/* Start Projects */
+.projects {
+  background-color: #f1f1f1;
+  .box {
+    text-align: center;
+    float: left;
+    padding: 15px;
+    width: 25%;
+    i {
+      color: #ff305b;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 25px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+    span {
+      display: block;
+      color: #333;
+    }
+  }
+}
+/* End Projects */

@@ -1,0 +1,39 @@
+/* Start Contact */
+.contact {
+  form {
+    width: 750px;
+    margin: auto;
+    input,
+    textarea {
+      float: left;
+      width: 100%;
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #555;
+      padding: 10px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      transition: border-color 0.3s;
+      &:focus {
+        outline: none;
+        border-color: #ff305b;
+      }
+      &#name {
+        width: calc(50% - 10px);
+        margin-right: 20px;
+      }
+      &#email {
+        width: calc(50% - 10px);
+      }
+      &#submit {
+        width: fit-content;
+        background-color: #ff305b;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+/* End Contact */

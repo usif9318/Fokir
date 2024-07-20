@@ -1,0 +1,33 @@
+.services {
+  background-color: #f1f1f1;
+  .srv {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 40px 15px;
+    transition: background-color 0.3s;
+    i {
+      color: #ff305b;
+      font-size: 30px;
+      margin-bottom: 15px;
+      transition: transform 0.3s;
+    }
+    h3 {
+      color: #333;
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+    p {
+      line-height: 1.4;
+      color: #555;
+    }
+    &:hover {
+      background-color: white;
+      box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+      i {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
